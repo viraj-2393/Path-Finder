@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>Route Tracker</title>
+    <link rel="stylesheet" type="text/css" href="bellman.css"/>
+	<link rel="icon" type="image/png" href="route.png" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type ="text/javascript" src="bellman.js"></script>
+    </head>
+    <body>
+	    <div class="header">
+			<input class="inpt" id="src" type="text" placeholder="src"/>
+			<input class="inpt inpt2" id="dest" type="text" placeholder="dest"/>
+			<Button class="setflag">Set Positions</Button>
+			<select>
+			 <option>Algorithm</option>
+			 <option>Bellmanford Algorithm</option>
+			 <option>Dijkstra's Algorithm</option>
+			</select>
+			<Button class="run">Run Algorithm</Button>
+		</div>
+        <div id="container"></div>
+    </body>
+</html>
